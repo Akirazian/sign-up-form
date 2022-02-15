@@ -14,15 +14,33 @@
 <body>
   <div class="splash-container">
     <div class="logo-container">
-      <img src="https://www.pinclipart.com/picdir/big/31-313658_beehive-clipart.png" alt="bee" class="logo-img">
-      <span>Bees for You</span>
+      <span>Sign-Up Form</span>
     </div>
   </div>
-  <div class="form-container">
-    <div class="intro">This is not a real online service! But it sure would be nice if it was. Imagine: raw honey from farmers, straight to your door.
-      Sign up now to get started. Support your local farmers.</div>
-    <div class="form">Form Area</div>
-    <div class="submission">Submission area</div>
+  <div class="sign-up-container">
+    <div class="intro">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+      You know you want to.</div>
+    <div class="form-container">
+      <form id="sign-up-form">
+        <h3>Let's do this!</h3>
+        <div class="form-row">
+          <div class="form-input"><label for="first-name">First Name</label><input type="text" name="first-name" id="first-name"></div>
+          <div class="form-input"><label for="last-name">Last Name</label><input type="text" name="last-name" id="last-name"></div>
+        </div>
+        <div class="form-row">
+          <div class="form-input"><label for="email">Email</label><input type="email" name="email" id="email"></div>
+          <div class="form-input"><label for="phone">Phone Number</label><input type="tel" name="phone" id="phone"></div>
+        </div>
+        <div class="form-row">
+          <div class="form-input"><label for="password">Password</label><input type="password" name="password" id="password"></div>
+          <div class="form-input"><label for="password-confirm">Confirm Password</label><input type="password" name="password-confirm" id="password-confirm"></div>
+        </div>
+      </form>
+    </div>
+    <div class="submission-area">
+      <button type="submit" form="sign-up-form">Create Account</button>
+      <p class="have-an-account">Already have an account? <a href="">Log In</a></p>
+    </div>
   </div>
 </body>
 </html>

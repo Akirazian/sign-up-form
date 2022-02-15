@@ -1,2 +1,2 @@
 # sign-up-form
-A responsive full page sign-up form for a honey delivery company.
+A responsive full page sign-up form with HTML5 Form Validation.

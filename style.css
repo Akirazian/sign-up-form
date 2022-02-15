@@ -6,9 +6,9 @@ body {
 .splash-container {
   text-align: center;
   height: 100vh;
-  width: 35vw;
+  min-width: 35vw;
   margin: 0px;
-  background: url("https://images.unsplash.com/photo-1644221362204-a265a2ca7e55?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=cristina-pop-RYO1hrx32kE-unsplash.jpg&w=1920");
+  background: url("https://images.unsplash.com/photo-1644167042631-a9fadfa7d747?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
   background-size: cover;
 }
 
@@ -18,10 +18,16 @@ body {
   align-items: center;
   font-size: 2.5rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.3);
   font-family: "Rowdies", cursive;
+  padding: 15px;
   position: relative;
-  top: 150px;
+  top: 200px;
+}
+
+.intro {
+  font-size: 1.5rem;
+  padding: 40px;
 }
 
 .logo-img {
@@ -30,14 +36,32 @@ body {
   margin-right: 15px;
 }
 
-.form-container {
+.sign-up-container {
   width: 65vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.intro {
-  font-size: 1.5rem;
+.form-container {
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.submission-area {
   padding: 40px;
 }
