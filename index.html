@@ -14,26 +14,29 @@
 <body>
   <div class="splash-container">
     <div class="logo-container">
+      <svg class="logo-img" xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 0 24 24" width="70px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
       <span>Sign-Up Form</span>
     </div>
   </div>
   <div class="sign-up-container">
-    <div class="intro">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
-      You know you want to.</div>
+    <div class="intro">
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+      <p>You know you want to.</p>
+    </div>
     <div class="form-container">
       <form id="sign-up-form">
         <h3>Let's do this!</h3>
         <div class="form-row">
-          <div class="form-input"><label for="first-name">First Name</label><input type="text" name="first-name" id="first-name"></div>
-          <div class="form-input"><label for="last-name">Last Name</label><input type="text" name="last-name" id="last-name"></div>
+          <div class="form-input"><label for="first-name">First Name</label><input required type="text" name="first-name" id="first-name"></div>
+          <div class="form-input"><label for="last-name">Last Name</label><input required type="text" name="last-name" id="last-name"></div>
         </div>
         <div class="form-row">
-          <div class="form-input"><label for="email">Email</label><input type="email" name="email" id="email"></div>
-          <div class="form-input"><label for="phone">Phone Number</label><input type="tel" name="phone" id="phone"></div>
+          <div class="form-input"><label for="email">Email</label><input required type="email" name="email" id="email"></div>
+          <div class="form-input"><label for="phone">Phone Number</label><input required type="tel" name="phone" id="phone"></div>
         </div>
         <div class="form-row">
-          <div class="form-input"><label for="password">Password</label><input type="password" name="password" id="password"></div>
-          <div class="form-input"><label for="password-confirm">Confirm Password</label><input type="password" name="password-confirm" id="password-confirm"></div>
+          <div class="form-input"><label for="password">Password</label><input required type="password" name="password" id="password"></div>
+          <div class="form-input"><label for="password-confirm">Confirm Password</label><input required type="password" name="password-confirm" id="password-confirm"></div>
         </div>
       </form>
     </div>
