@@ -55,8 +55,8 @@ body {
   font-weight: 600;
 }
 
-.intro p {
-  margin: 15px;
+.intro>p:last-child {
+  margin-top: 5px;
 }
 
 .form-container {
@@ -116,7 +116,8 @@ button[type="submit"] {
   border-radius: 10px;
   width: 200px;
   border: 0px;
-  box-shadow: 0px 5px 5px rgb(197 197 197);;
+  box-shadow: 0px 5px 5px rgb(197 197 197);
+  margin-bottom: 15px;
 }
 
 button[type="submit"]:hover {
