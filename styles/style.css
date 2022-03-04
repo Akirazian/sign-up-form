@@ -1,5 +1,6 @@
 :root {
   --main-bg: rgb(245, 245, 245);
+  --label: #374052;
 }
 
 body {
@@ -40,16 +41,18 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 20px 40px;
   background-color: var(--main-bg);
   flex: 1;
+  font-weight: 600;
 }
 
 .intro p {
@@ -63,6 +66,11 @@ body {
   z-index: 10;
 }
 
+form>h3 {
+  font-size: 1.3rem;
+  color: var(--label);
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -72,11 +80,25 @@ form {
   display: flex;
 }
 
+label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: var(--label);
+}
+
 .form-input {
   display: flex;
   flex-direction: column;
   margin-right: 40px;
   margin-bottom: 20px;
+}
+
+input {
+  border: 1px solid rgba(209, 209, 209, 0.781);
+  border-radius: 8px;
+  padding: 5px 7px;
 }
 
 .submission-area {
@@ -87,9 +109,31 @@ form {
 }
 
 button[type="submit"] {
-  background-color: #42506D;
+  background-color: #435270;
   color: white;
   padding: 15px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-radius: 10px;
+  width: 200px;
+  border: 0px;
+  box-shadow: 0px 5px 5px rgb(197 197 197);;
+}
+
+button[type="submit"]:hover {
+  filter: brightness(90%);
+}
+
+button[type="submit"]:active {
+  filter: brightness(75%);
+}
+
+.have-an-account>a {
+  color: #435270;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.have-an-account>a:visited {
+  color: #435270;
+  text-decoration: none;
 }
