@@ -13,4 +13,4 @@ function checkMatch(e) {
   }
 }
 
-form.onsubmit = checkMatch;
+submit.addEventListener("click", checkMatch);
